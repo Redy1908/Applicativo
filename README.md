@@ -29,7 +29,7 @@ Create your own organization on SonarCloud, linked to your GitHub account.
 2.  **Create a New Organization**:
     *   Click the `+` icon in the top-right corner and select **Create new organization**.
     *   SonarCloud will ask you to choose a GitHub account to link. Select your personal GitHub account and grant permissions.
-    *   You will be prompted for an **Organization Key**. This is a critical step. By default, SonarCloud will suggest your GitHub username in lowercase, you can use that or customize it. Just make sure to edit the `pom.xml` file in this repository to replace `YOUR-UNIQUE-ORGANIZATION-KEY` at [this line](https://github.com/Redy1908/Applicativo/blob/62282920333c8979f8903ff3b23c70ee2e672b98/pom.xml#L15) with the exact key you choose here.
+    *   You will be prompted for an **Organization Key**. This is a critical step. By default, SonarCloud will suggest your GitHub username in lowercase, you can use that or customize it. Just make sure to edit the `pom.xml` file in this repository to replace `unina` at [this line](https://github.com/Redy1908/Applicativo/blob/62282920333c8979f8903ff3b23c70ee2e672b98/pom.xml#L15) with the exact key you choose here.
     *   Choose the **Free plan** and click "Create Organization".
 3.  **Add Your Project to the New Organization**:
     *   After creating the organization, you will be prompted to import a project. If not, click the `+` icon again and select **Analyze new project**.
