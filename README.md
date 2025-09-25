@@ -1,12 +1,12 @@
 # Project Template
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
 
-> **Important:** After creating your repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Template` in the above links with  `YourGithHubUsername_Template`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
+> **Important:** After forking this repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Applicativo` in the above links with  `YourGithHubUsername_Applciativo`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
 
 ---
 
@@ -21,21 +21,15 @@ This repository serves as a base template for programming projects. It comes pre
 
 ## Initial Setup
 
-To use this template and enable automatic code analysis, follow these steps.
+Fork this repository.
 
-### 1 Use this Template
-
-Click the green **"Use this template"** button at the top right and select **"Create a new repository"**. Give your new repository a name and create it on your personal GitHub account.
-
-### 2 Create Your SonarCloud Organization and Project
-
-Each student must create their own organization on SonarCloud, linked to their GitHub account.
+Create your own organization on SonarCloud, linked to your GitHub account.
 
 1.  **Log in to SonarCloud**: Go to [SonarCloud.io](https://sonarcloud.io/) and log in with your GitHub account.
 2.  **Create a New Organization**:
     *   Click the `+` icon in the top-right corner and select **Create new organization**.
     *   SonarCloud will ask you to choose a GitHub account to link. Select your personal GitHub account and grant permissions.
-    *   You will be prompted for an **Organization Key**. This is a critical step. By default, SonarCloud will suggest your GitHub username in lowercase. **Instead use `unina` as key.**
+    *   You will be prompted for an **Organization Key**. This is a critical step. By default, SonarCloud will suggest your GitHub username in lowercase, you can use that or customize it. Just make sure to edit the `pom.xml` file in this repository to replace `YOUR-UNIQUE-ORGANIZATION-KEY` at [this line](https://github.com/Redy1908/Applicativo/blob/62282920333c8979f8903ff3b23c70ee2e672b98/pom.xml#L15) with the exact key you choose here.
     *   Choose the **Free plan** and click "Create Organization".
 3.  **Add Your Project to the New Organization**:
     *   After creating the organization, you will be prompted to import a project. If not, click the `+` icon again and select **Analyze new project**.
