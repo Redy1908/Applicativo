@@ -63,6 +63,17 @@ Now you need to securely add the token to your GitHub repository.
 
 **Done!** Your project is now fully configured.
 
+## Optional: Changing the Java Version
+This template is configured to use Java 21 by default. If you need to use a different version, you must update it in two places to ensure both your local build and the CI workflow are aligned.
+
+### 1. Maven Configuration
+
+In the `pom.xml` file, update the [`maven.compiler.source`](https://github.com/Redy1908/Applicativo/blob/87a9c22045ee27b1574a814be4c16a0a31a8ceb3/pom.xml#L12) and [`maven.compiler.target`](https://github.com/Redy1908/Applicativo/blob/87a9c22045ee27b1574a814be4c16a0a31a8ceb3/pom.xml#L13) properties to your desired Java version.
+
+### 2. GitHub Actions Workflow
+
+In the `.github/workflows/CI-CD.yml` file, update the [`java-version`](https://github.com/Redy1908/Applicativo/blob/87a9c22045ee27b1574a814be4c16a0a31a8ceb3/.github/workflows/build.yml#L23C11-L23C26) in the "Set up JDK" step to match the version you set in your `pom.xml`.
+
 ---
 
 ## How It Works
