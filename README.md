@@ -6,7 +6,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Redy1908_Applicativo)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Redy1908_Applicativo)
 
-> **Important:** After forking this repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Applicativo` in the above links with  `YourGithHubUsername_Applciativo`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
+> **Important:** After forking this repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Applicativo` in the above links with  `YourGithHubUsername_Applciativo`. Once you have done this, and followed the setup instructions below, you can delete this note and the instructions.
 
 ---
 
@@ -53,11 +53,11 @@ The GitHub Actions workflow needs a token to authenticate and send data to your 
 
 Now you need to securely add the token to your GitHub repository.
 
-1.  Go to your GitHub repository (the one created from the template).
+1.  Go to your GitHub repository (the one foorket from this repository).
 2.  Click on **Settings** > **Secrets and variables** > **Actions**.
 3.  Click the **New repository secret** button.
 4.  Fill in the fields:
-    *   **Name**: `SONAR_TOKEN` (the name must be exact).
+    *   **Name**: `SONAR_TOKEN` (the name must match).
     *   **Secret**: Paste the token you copied from SonarCloud.
 5.  Click **Add secret**.
 
