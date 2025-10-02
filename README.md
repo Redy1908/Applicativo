@@ -53,7 +53,7 @@ The GitHub Actions workflow needs a token to authenticate and send data to your 
 
 Now you need to securely add the token to your GitHub repository.
 
-1.  Go to your GitHub repository (the one foorket from this repository).
+1.  Go to your GitHub repository (the one forked from this repository).
 2.  Click on **Settings** > **Secrets and variables** > **Actions**.
 3.  Click the **New repository secret** button.
 4.  Fill in the fields:
