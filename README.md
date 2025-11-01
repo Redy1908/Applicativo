@@ -72,7 +72,7 @@ In the `pom.xml` file, update the `maven.compiler.source` and `maven.compiler.ta
 
 ### 2. GitHub Actions Workflow
 
-In the `.github/workflows/CI-CD.yml` file, update the `java-version` in the steps named "Set up JDK" step to match the version you set in your `pom.xml`.
+In the `.github/workflows/pipeline.yaml` file, update the `java-version` in the steps named "Set up JDK" step to match the version you set in your `pom.xml`.
 
 ---
 
